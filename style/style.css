@@ -23,3 +23,25 @@ img.logo {
    background-size: 1px 1px;
    background-position: 0 100%;
 }
+
+img {
+   width: 100%;
+}
+
+.hero {
+   background-image: url("https://www.kvs-tula.ru/assets/img/morskoy.jpg");
+
+   height: 700px;
+
+}
+
+h1 {
+   font-weight: 200;
+   font-style: normal;
+   font-family: 'Playfair Display', serif;
+   color: #ffffff;
+   font-size: 60px !important;
+   line-height: 1;
+   letter-spacing: 1px;
+   padding-top: 30px !important;
+}
