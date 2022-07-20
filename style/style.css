@@ -45,3 +45,19 @@ h1 {
    letter-spacing: 1px;
    padding-top: 30px !important;
 }
+
+.hello-txt {
+   text-align: center;
+   color: white;
+   font-size: 40px;
+}
+
+.photo-icon {
+   max-width: 67px;
+   height: 58px;
+}
+
+.about-person {
+text-align: center;
+padding-top: 100px;
+}
