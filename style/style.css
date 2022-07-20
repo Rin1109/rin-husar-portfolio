@@ -29,21 +29,43 @@ img {
 }
 
 .hero {
-   background-image: url("https://www.kvs-tula.ru/assets/img/morskoy.jpg");
-
+   background-image: url("https://oir.mobi/uploads/posts/2019-12/1575943365_1-1.jpg");
    height: 700px;
+   width: 100%;
 
 }
 
-h1 {
+h1, .first-name {
    font-weight: 200;
    font-style: normal;
    font-family: 'Playfair Display', serif;
    color: #ffffff;
-   font-size: 60px !important;
+   font-size: 90px !important;
    line-height: 1;
    letter-spacing: 1px;
    padding-top: 30px !important;
+}
+
+.second-name {
+   font-weight: 200;
+   font-style: normal;
+   font-family: 'Playfair Display', serif;
+   color: #ffffff;
+   font-size: 50px !important;
+   line-height: 1;
+   letter-spacing: 1px;
+   padding-top: 30px !important;
+}
+
+.photo-portfolio {
+   font-weight: 200;
+   font-style: normal;
+   color: #ffffff;
+   font-size: 25px !important;
+   line-height: 1;
+   letter-spacing: 1px;
+   padding-top: 40px !important;
+   padding-bottom: 40px;
 }
 
 .hello-txt {
@@ -55,9 +77,10 @@ h1 {
 .photo-icon {
    max-width: 67px;
    height: 58px;
+
 }
 
 .about-person {
 text-align: center;
-padding-top: 100px;
+padding-top: 170px;
 }
