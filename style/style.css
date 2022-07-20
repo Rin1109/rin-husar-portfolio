@@ -29,7 +29,7 @@ img {
 }
 
 .hero {
-   background-image: url("https://oir.mobi/uploads/posts/2019-12/1575943365_1-1.jpg");
+   background-image: url("https://oir.mobi/uploads/posts/2020-04/1586885182_48-p-podvodnie-skali-67.jpg");
    height: 700px;
    width: 100%;
 
@@ -64,7 +64,7 @@ h1, .first-name {
    font-size: 25px !important;
    line-height: 1;
    letter-spacing: 1px;
-   padding-top: 40px !important;
+   padding-top: 30px !important;
    padding-bottom: 40px;
 }
 
@@ -82,5 +82,5 @@ h1, .first-name {
 
 .about-person {
 text-align: center;
-padding-top: 170px;
+padding-top: 10px;
 }
