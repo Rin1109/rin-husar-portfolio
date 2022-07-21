@@ -1,4 +1,8 @@
-
+:root {
+   --color-main-text {
+      color: #025a62 ;
+   }
+}
 
 img.logo {
    width: 150px;
@@ -99,4 +103,13 @@ padding-top: 10px;
 
 .text-2 {
    color: rgb(129, 129, 129);
+}
+
+.card-text {
+   color: #025a62;
+   font-weight: 700;
+}
+
+.btn:hover {
+   background-color: #025a62;
 }
