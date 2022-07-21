@@ -1,8 +1,6 @@
 :root {
-   --color-main-text {
-      color: #025a62 ;
+   --main-color: #025a62; 
    }
-}
 
 img.logo {
    width: 150px;
@@ -74,7 +72,7 @@ h1, .first-name {
 
 .hello-txt {
    text-align: right;
-   color: #025a62;
+   color: var(--main-color);
    font-size: 70px;
    font-weight: 500;
    font-style: normal;
@@ -106,10 +104,22 @@ padding-top: 10px;
 }
 
 .card-text {
-   color: #025a62;
+   color: var(--main-color);
    font-weight: 700;
 }
 
 .btn:hover {
-   background-color: #025a62;
+   background-color: var(--main-color);
+}
+
+.btn-primary {
+   background-color: var(--main-color);
+   font-size: 18px;
+   border-color: var(--main-color);
+}
+
+.btn-primary:hover {
+   background-color: #ffffff;
+   color: var(--main-color);
+   border-color: var(--main-color);
 }
