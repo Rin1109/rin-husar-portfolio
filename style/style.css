@@ -69,9 +69,15 @@ h1, .first-name {
 }
 
 .hello-txt {
-   text-align: center;
-   color: white;
-   font-size: 40px;
+   text-align: right;
+   color: #025a62;
+   font-size: 70px;
+   font-weight: 500;
+   font-style: normal;
+   line-height: 1,5;
+   letter-spacing: 1px;
+   padding-right: 150px;
+   padding-top: 10px;
 }
 
 .photo-icon {
@@ -83,4 +89,14 @@ h1, .first-name {
 .about-person {
 text-align: center;
 padding-top: 10px;
+}
+
+.text-1 {
+   color: black;
+   font-size: 30px;
+   padding-bottom: 30px;
+}
+
+.text-2 {
+   color: rgb(129, 129, 129);
 }
