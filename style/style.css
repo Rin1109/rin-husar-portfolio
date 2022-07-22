@@ -195,3 +195,10 @@ padding-top: 10px;
       display: none;
    }
 }
+
+.hover:hover {
+   background-image: linear-gradient(currentColor,currentColor);
+   background-repeat: repeat-x;
+   background-size: 1px 1px;
+   background-position: 0 100%;
+}
