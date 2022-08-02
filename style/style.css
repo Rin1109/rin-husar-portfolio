@@ -34,8 +34,15 @@ img {
    background-image: url("https://oir.mobi/uploads/posts/2020-04/1586885182_48-p-podvodnie-skali-67.jpg");
    height: 700px;
    width: 100%;
-
 }
+
+.hero2 {
+   background-image: url("https://oir.mobi/uploads/posts/2020-04/1586885182_48-p-podvodnie-skali-67.jpg");
+   height: 300px;
+   width: 100%;
+}
+
+
 
 h1, .first-name {
    font-weight: 200;
@@ -57,6 +64,21 @@ h1, .first-name {
    line-height: 1;
    letter-spacing: 1px;
    padding-top: 30px !important;
+}
+
+.main-tittle {
+   font-weight: 200;
+   font-style: normal;
+   font-family: 'Playfair Display', serif;
+   color: #ffffff;
+   font-size: 68px !important;
+   line-height: 1;
+   letter-spacing: 1px;
+   padding-top: 30px !important;
+}
+
+#portfolio-tittle {
+   padding-top: 120px !important;
 }
 
 .photo-portfolio {
