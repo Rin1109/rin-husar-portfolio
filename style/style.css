@@ -224,3 +224,10 @@ padding-top: 10px;
    background-size: 1px 1px;
    background-position: 0 100%;
 }
+
+.lock-padding {
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+}
