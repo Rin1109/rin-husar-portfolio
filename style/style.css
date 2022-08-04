@@ -235,7 +235,7 @@ padding-top: 10px;
 .gallery {
    box-sizing: border-box;
    position: relative;
-   padding: 45px 0;
+   padding: 0 0;
 }
 
 h2.title {
@@ -263,7 +263,6 @@ h2.title:after {
    flex-wrap: wrap;
    overflow: hidden;
    font-size: 0;
-   margin-top: 30px;
 }
 
 .gallery-item {
