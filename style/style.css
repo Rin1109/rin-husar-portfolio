@@ -102,6 +102,24 @@ h1, .first-name {
    padding-top: 10px;
 }
 
+.hello-txt2 {
+   text-align: right;
+   color: var(--main-color);
+   font-size: 70px;
+   font-weight: 500;
+   font-style: normal;
+   line-height: 1,5;
+   letter-spacing: 1px;
+}
+
+.about-me {
+   width: 1170px;
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+   padding-top: 10px;
+}
+
 .photo-icon {
    max-width: 67px;
    height: 58px;
@@ -111,6 +129,16 @@ h1, .first-name {
 .about-person {
 text-align: center;
 padding-top: 10px;
+}
+
+.my-photo {
+   width: 1170px;
+   height: 550px;
+   display: block;
+   margin: 20px auto;
+   background-image: url("../img/my-photo.jpg");
+   background-position: center;
+   background-size:cover;
 }
 
 .text-1 {
