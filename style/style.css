@@ -132,8 +132,8 @@ padding-top: 10px;
 }
 
 .my-photo {
-   width: 1170px;
-   height: 550px;
+   width: 1000px;
+   height: 500px;
    display: block;
    margin: 20px auto;
    background-image: url("../img/my-photo.jpg");
