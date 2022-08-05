@@ -42,7 +42,9 @@ img {
    width: 100%;
 }
 
-
+.hero2 .title {
+   position: ;
+}
 
 h1, .first-name {
    font-weight: 200;
@@ -71,13 +73,13 @@ h1, .first-name {
    font-style: normal;
    font-family: 'Playfair Display', serif;
    color: #ffffff;
-   font-size: 68px !important;
+   font-size: 65px !important;
    line-height: 1;
    letter-spacing: 1px;
 }
 
 #portfolio-tittle {
-   padding-top: 160px !important;
+   padding-top: 90px !important;
 }
 
 .photo-portfolio {
@@ -149,73 +151,18 @@ padding-top: 10px;
    text-align: right;
 }
 
-@media (max-width: 1200px){
-   .container-fluid {
-      max-width: 1140px;
-   }
+.hello-txt {
+   display: none;
 }
 
-@media (max-width: 992px){
-   .container-fluid {
-      max-width: 960px;
-   }
+footer {
+   text-align: center;
 }
 
-@media (max-width: 767px){
-   .container-fluid {
-      text-align: center;
-   }
-
-   .hello-txt {
-      display: none;
-   }
-
-   footer {
-      text-align: center;
-   }
-
-   br {
-      display: none;
-   }
-
-
+br {
+   display: none;
 }
 
-@media (max-width: 576px){
-   .container-fluid {
-      text-align: center;
-   }
-
-   .hello-txt {
-      display: none;
-   }
-
-   footer {
-      text-align: center;
-   }
-
-   br {
-      display: none;
-   }
-}
-
-@media (max-width: 390px){
-   .container-fluid {
-      text-align: center;
-   }
-
-   .hello-txt {
-      display: none;
-   }
-
-   footer {
-      text-align: center;
-   }
-
-   br {
-      display: none;
-   }
-}
 
 .hover:hover {
    background-image: linear-gradient(currentColor,currentColor);
@@ -303,24 +250,6 @@ h2.title:after {
    transition: all .5s ease;
 }
 
-@media (max-width: 991px) {
-   .gallery-item {
-      flex: 33.3%;
-   }
-}
-
-@media (max-width: 768px) {
-   .gallery-item {
-      flex: 50%;
-   }
-}
-
-@media (max-width: 530px) {
-   .gallery-item {
-      flex: 100%;
-   }
-}
-
 .swiper {
    width: 100%;
    padding-top: 50px;
@@ -337,4 +266,67 @@ height: auto;
 .swiper-slide img {
 display: block;
 width: 100%;
+}
+
+@media (max-width: 1200px){
+   .container-fluid {
+      max-width: 1140px;
+   }
+}
+
+@media (max-width: 992px){
+   .container-fluid {
+      max-width: 960px;
+   }
+   .gallery-item {
+      flex: 33.3%;
+   }
+}
+
+@media (max-width: 768px) {
+   .gallery-item {
+      flex: 50%;
+   }
+   .container-fluid {
+      text-align: center;
+   }
+}
+
+@media (max-width: 576px){
+   .container-fluid {
+      text-align: center;
+   }
+
+   .hello-txt {
+      display: none;
+   }
+
+   footer {
+      text-align: center;
+   }
+
+   br {
+      display: none;
+   }
+   .gallery-item {
+      flex: 100%;
+   }
+}
+
+@media (max-width: 390px){
+   .container-fluid {
+      text-align: center;
+   }
+
+   .hello-txt {
+      display: none;
+   }
+
+   footer {
+      text-align: center;
+   }
+
+   br {
+      display: none;
+   }
 }
