@@ -148,15 +148,6 @@ padding-top: 10px;
    text-align: right;
 }
 
-
-
-footer {
-   text-align: center;
-}
-
-
-
-
 .hover:hover {
    background-image: linear-gradient(currentColor,currentColor);
    background-repeat: repeat-x;
@@ -202,6 +193,7 @@ h2.title:after {
    flex-wrap: wrap;
    overflow: hidden;
    font-size: 0;
+   padding-top: 10px;
 }
 
 .gallery-item {
@@ -209,6 +201,7 @@ h2.title:after {
    flex: 25%;
    overflow: hidden;
    position: relative;
+   padding: 10px;
 }
 
 .gallery-item-hover {
