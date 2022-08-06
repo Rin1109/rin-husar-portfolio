@@ -48,7 +48,7 @@ h1, .first-name {
    font-style: normal;
    font-family: 'Playfair Display', serif;
    color: #ffffff;
-   font-size: 90px !important;
+   font-size: 90px;
    line-height: 1;
    letter-spacing: 1px;
    padding-top: 30px !important;
@@ -59,7 +59,7 @@ h1, .first-name {
    font-style: normal;
    font-family: 'Playfair Display', serif;
    color: #ffffff;
-   font-size: 50px !important;
+   font-size: 50px;
    line-height: 1;
    letter-spacing: 1px;
    padding-top: 30px !important;
@@ -70,7 +70,7 @@ h1, .first-name {
    font-style: normal;
    font-family: 'Playfair Display', serif;
    color: #ffffff;
-   font-size: 65px !important;
+   font-size: 65px;
    line-height: 1;
    letter-spacing: 1px;
 }
@@ -83,7 +83,7 @@ h1, .first-name {
    font-weight: 200;
    font-style: normal;
    color: #ffffff;
-   font-size: 25px !important;
+   font-size: 25px ;
    line-height: 1;
    letter-spacing: 1px;
    padding-top: 30px !important;
@@ -243,7 +243,7 @@ h2.title:after {
 }
 
 .img-fluid {
-   max-width: 161%;
+   max-width: 130%;
 }
 
 .gallery-item-hover {
@@ -300,6 +300,10 @@ width: 100%;
    .container-fluid {
       max-width: 1140px;
    }
+   .img-fluid {
+      max-width: 120%;
+   }
+}
 }
 
 @media (max-width: 992px){
@@ -308,6 +312,9 @@ width: 100%;
    }
    .gallery-item {
       flex: 33.3%;
+   }
+   .img-fluid {
+      max-width: 150%;
    }
 }
 
@@ -324,7 +331,21 @@ width: 100%;
       align-items: center;
       text-align: center;
    }
-   
+   .first-name {
+      font-size: 70px;
+   }
+   .second-name {
+      font-size: 40px;
+   }
+   .photo-portfolio {
+      font-size: 23px;
+   }
+   #portfolio-tittle {
+      font-size: 55px;
+   }
+   .text-1 {
+      font-size: 25px;
+   }
 
 }
 
@@ -356,6 +377,9 @@ width: 100%;
       align-items: center;
       text-align: center;
    }
+   .text-1 {
+      font-size: 25px;
+   }
 }
 
 @media (max-width: 390px){
@@ -376,5 +400,11 @@ width: 100%;
    }
    .my-photo {
       height: 290px;
+   }
+   #portfolio-tittle {
+      font-size: 48px;
+   }
+   .photo-portfolio {
+      font-size: 20px;
    }
 }
