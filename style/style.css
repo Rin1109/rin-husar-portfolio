@@ -242,6 +242,10 @@ h2.title:after {
    padding: 10px;
 }
 
+.img-fluid {
+   max-width: 161%;
+}
+
 .gallery-item-hover {
    position: absolute;
    top: 0;
@@ -314,6 +318,14 @@ width: 100%;
    .container-fluid {
       text-align: center;
    }
+   .img-contact {
+      display: block;
+      margin: 0 auto;
+      align-items: center;
+      text-align: center;
+   }
+   
+
 }
 
 @media (max-width: 576px){
@@ -335,6 +347,15 @@ width: 100%;
    .gallery-item {
       flex: 100%;
    }
+   .my-photo {
+      height: 400px;
+   }
+   .img-contact {
+      display: block;
+      margin: 0 auto;
+      align-items: center;
+      text-align: center;
+   }
 }
 
 @media (max-width: 390px){
@@ -352,5 +373,8 @@ width: 100%;
 
    br {
       display: none;
+   }
+   .my-photo {
+      height: 290px;
    }
 }
