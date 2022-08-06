@@ -141,6 +141,11 @@ padding-top: 10px;
    background-size:cover;
 }
 
+.img-contact {
+   width: 510px;
+   height: auto;
+}
+
 .text-1 {
    color: black;
    font-size: 30px;

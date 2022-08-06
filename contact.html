@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="description" content="Rin Husar portfolio. A photographer's portfolios is a collection of your past work, presented in digital or printed format, that represents your photographic focus or the type of work that you want to create in the future.">
+   <title>Rin Husar | Portfolio</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+   <link rel="stylesheet" href="style/style.css" />
+
+
+</head>
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <a class="navbar-brand" href="index.html">
+            <img class="logo" title="Homepage" src="img/logo3.png" alt="Rin Husar">
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav">
+            <li class="nav-item hover">
+               <a class="nav-link" title="Homepage" href="index.html">Home</a>
+            </li>
+            <li class="nav-item hover">
+               <a class="nav-link" title="My portfolio" href="portfolio.html">My portfolio</a>
+            </li>
+            <li class="nav-item hover">
+               <a class="nav-link" title="About me" href="about.html">About me</a>
+            </li>
+            <li class="nav-item active">
+               <a class="nav-link" title="Contacts" href="contact.html">Contacts</a>
+            </li>
+         </ul>
+         </div>
+      </nav>
+   </header>
+   <div class="hero2">
+      <div class="tittle">
+         <div id="portfolio-tittle" class="main-tittle text-center">CONTACTS</div>
+         <div class="photo-portfolio text-center">CONTACT INFO</div>
+      </div>
+   </div>
+   <main>
+      <div class="container-fluid p-5 featurette container">
+         <div class="row">
+            <div class="col-md-6">
+               <div class="text-1">
+                  The thing that all photographers enjoy is turning every shot into the new innovation in the craft.
+               </div>
+               <div class="text-2">
+                  My love for photography is a complex thing, born from and sustained by all that inspires me. That can be people, nature, big city life, or rural landscapes. I've been drawn to dream worlds since childhood, and now I am happy to share my vision with the world through creative photographs.
+               </div>
+            </div>
+            <div class="col-md-6 hello-txt">
+               <img src="img/gallery/amazing sea.png" alt="alt" class="img-contact">
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer class="container">
+      <div class="row p-4">
+            <p>© 2022 Rin Husar · All rights reserved</p>
+      </div>
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+   crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+<script>
+   $(".gallery-list").magnificPopup({
+   delegate: "a",
+   type: "image",
+   gallery: {
+   enabled: true
+   }
+});
+</script>
+</body>
+</html>
