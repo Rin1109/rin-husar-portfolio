@@ -141,6 +141,11 @@ padding-top: 10px;
    background-size:cover;
 }
 
+.contacts-links {
+   text-decoration: none;
+   color: rgb(129, 129, 129);
+}
+
 .img-contact {
    width: 510px;
    height: auto;
