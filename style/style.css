@@ -225,6 +225,10 @@ h2.title:after {
    transform: translateX(-50%);
 }
 
+.links a {
+   padding-right: 30px;
+}
+
 .gallery-list {
    position: relative;
    display: flex;
@@ -303,7 +307,6 @@ width: 100%;
    .img-fluid {
       max-width: 120%;
    }
-}
 }
 
 @media (max-width: 992px){
